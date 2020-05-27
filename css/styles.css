@@ -1,9 +1,8 @@
-ul{
-    color: blue;
-    list-style: none;
-}
-.input-text{
-    color: brown;
-    text-transform: uppercase;
-    font-weight: bold;
+.box1{
+    width: 900px;
+    height: 100px;
+    background-color: gray;
+    padding: 20px 30px;
+    border: 5px solid black;
+
 }
