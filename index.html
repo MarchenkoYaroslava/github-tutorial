@@ -8,26 +8,35 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!--  -->
-    <label for="fav">Выберите свой любимый браузер:</label>
-    <input list="browsers" name="fav" id="fav" />
-
-    <datalist id="browsers">
-      <option>Edge</option>
-      <option>Firefox</option>
-      <option>Chrome</option>
-      <option>Opera</option>
-      <option>Safari</option>
-    </datalist>
-    <br />
-    <label for="branch">Отделение:</label>
-    <input type="text" name="branch" id="branch" list="codes" />
-
-    <datalist id="codes">
-      <option value="3600">Шевченковский район</option>
-      <option value="7493">Железоугорский район</option>
-      <option value="2701">Центральный район</option>
-      <option value="5692">Зелёногорский район</option>
-    </datalist>
+    <form class="contact-form">
+      <h1 class="form-title">Оставьте свои данные, мы вам перезвоним</h1>
+      <div>
+        <input
+          type="text"
+          class="contact-form-input"
+          name="user-name"
+          placeholder="Имя"
+        />
+        <input
+          type="text"
+          class="contact-form-input"
+          name="user-phone"
+          placeholder="Телефон"
+        />
+        <input
+          type="text"
+          class="contact-form-input"
+          name="user-email"
+          placeholder="Почта"
+        />
+        <input
+          type="text"
+          class="comment"
+          name="comment"
+          placeholder="Комментарий"
+        />
+        <button class="submit-btn" type="submit">Отправить</button>
+      </div>
+    </form>
   </body>
 </html>
