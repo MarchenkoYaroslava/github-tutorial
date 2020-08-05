@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <form>
-      <label>
-        Почта
-        <input type="email" name="email" />
-      </label>
+    <div role="group">
+      <p>Выберите цвет футболки:</p>
 
-      <label>
-        Пароль
-        <input type="password" name="pwd" />
-      </label>
-    </form>
+      <label for="color-1">Красный</label>
+      <input id="color-1" name="color" type="radio" value="red" checked />
+
+      <label for="color-2">Белый</label>
+      <input id="color-2" name="color" type="radio" value="white" />
+
+      <label for="color-3">Зелёный</label>
+      <input id="color-3" name="color" type="radio" value="green" />
+    </div>
   </body>
 </html>
